@@ -1,0 +1,156 @@
+.hero-image{
+    transform: rotate(-17deg);
+}
+
+.hero-content>div> h2{
+    font-size: 2.81em;
+    font-family: poppins-bold;
+    line-height: 1.01em;
+}
+
+.hero-content{
+    display: flex;
+}
+
+
+.hero-buttons-cont{
+    margin-top: 1.31em;
+}
+
+.hero-buttons{
+    border-radius: 1.6em;
+    padding:0.6em 1em;
+    font-family: poppins-bold;
+    color:rgba(238, 238, 238, 1);
+    border:none;
+    font-size: 0.9em;
+    line-height: 1rem;
+}
+
+.hire-me{
+    background-color: rgba(0, 173, 181, 1);
+    border: 3px solid transparent;
+    cursor: pointer;
+  
+}
+
+.hire-me:hover{
+    transition: all .2s;
+    border: 3px solid white;
+}
+
+.download-cv{
+    background-color: rgba(57, 62, 70, 0.75);
+    margin-left: 0.7em;
+    border: 3px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.download-cv:hover{
+    transition: all .2s;
+    border: 3px solid white;
+}
+
+.over-flow-hidden{
+    overflow: hidden;
+}
+
+.hero-content>div> h2{
+    font-size: 2.81em;
+    font-family: poppins-bold;
+    line-height: 1.01em;
+}
+
+.hero-content{
+    display: flex;
+}
+
+.width-100pc{
+    width: 100%;
+}
+
+.color-blue{
+    color:rgba(0, 173, 181, 1);
+}
+
+@media (min-width: 750px) {
+    .hero-section{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 3vw;
+    }
+
+    .hero-content{
+        font-size: 2.2vw;
+        align-self: start;
+        margin-top: 3vw;
+    }
+
+    .hero-content > img{
+        height: 17vw;
+    }
+    
+    .hero-image{
+        transform: unset;
+    }
+}
+
+
+@media (min-width: 240px) {
+    header {
+      font-size: 6.66vw;
+    }
+  }
+  @media (min-width: 400px) {
+    header {
+      font-size: 5vw;
+    }
+  }
+  @media (min-width: 500px) {
+    header {
+      font-size: 4.5vw;
+    }
+  }
+  @media (min-width: 600px) {
+    header {
+      font-size: 3.5vw;
+    }
+  }
+  @media (min-width: 700px) {
+    header {
+      font-size: 3vw;
+    }
+  }
+  @media (min-width: 750px) {
+    .hero-section{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 3vw;
+    }
+
+    .hero-content{
+        font-size: 1.5em;
+        align-self: start;
+        margin-top: 3vw;
+        width: 23em;
+    }
+
+    .hero-content > img{
+        height: 17vw;
+    }
+    
+    .hero-image{
+        transform: unset;
+    }
+
+    .width-100pc{
+        width: 34em;
+        height: 37em;
+    }
+  }
+  @media (min-width: 1150px) {
+  }
+  @media (min-width: 1240px) {
+  }
+  
