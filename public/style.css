@@ -38,4 +38,5 @@ html{
     width: 100vw;
     height: max-content;
     padding:0 10%;
+    background-image: url('../public/Images/cubes.png');
 }

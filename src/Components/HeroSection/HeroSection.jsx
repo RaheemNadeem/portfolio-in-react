@@ -19,6 +19,10 @@ function HeroSection() {
                 </div>
             </div>
         </section>
+
+        <div className={classes['arrow-down']} id="arrowDown">
+            <img src="Images/hero-down-arrow.svg" alt=""/>
+        </div>
     </>
 }
 

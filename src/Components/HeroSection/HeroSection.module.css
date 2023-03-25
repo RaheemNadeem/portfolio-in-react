@@ -74,6 +74,28 @@
     color:rgba(0, 173, 181, 1);
 }
 
+.arrow-down{
+    padding: 1.9vw 3.5vw;
+    background-color: rgba(57, 62, 70, 0.75);
+    margin-top: -2.9em;
+    margin-bottom: 3.75em;
+    display: inline-block;
+    transform: translate(-50%,0);
+    margin-left: 50%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow-down:hover{
+    border:2px solid white;
+    transition: all 0.2s;
+}
+
+.arrow-down>img{
+    width: 2.8vw;
+}
+
 @media (min-width: 750px) {
     .hero-section{
         display: flex;
@@ -130,10 +152,10 @@
     }
 
     .hero-content{
-        font-size: 1.5em;
+        font-size: 1.8vw;
         align-self: start;
         margin-top: 3vw;
-        width: 23em;
+        width: 31vw;
     }
 
     .hero-content > img{
@@ -145,8 +167,8 @@
     }
 
     .width-100pc{
-        width: 34em;
-        height: 37em;
+        width: 41vw;
+        height: 43vw;
     }
   }
   @media (min-width: 1150px) {

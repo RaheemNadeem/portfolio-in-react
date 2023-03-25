@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMeSection from "../AboutMeSection/AboutMeSection";
 import Header from "../Header/Header"
 import HeroSection from "../HeroSection/HeroSection";
 
@@ -8,6 +9,7 @@ function App(){
     <Header/>
   <div className="container">
             <HeroSection/>
+            <AboutMeSection/>
           </div>
   </>
 }
