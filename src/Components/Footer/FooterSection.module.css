@@ -1,0 +1,148 @@
+.footer-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-nav-link{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border:1px solid transparent;
+    padding-bottom: 0.2rem;
+}
+
+.footer-nav-link >a> img{
+    width: 0.6em;
+}
+
+.user-icon{
+    width: 0.7em;
+}
+
+.footer-nav-link:hover{
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+
+.footer-nav-link >a> p{
+    font-size: 0.5em;
+    color:rgba(238, 238, 238, 1);
+    font-family: poppins;
+    margin-left: 0.8em;
+}
+
+.footer-nav-link >a{
+    display: flex;
+    text-decoration: none;
+}
+
+.footer-nav-link:nth-child(even){
+    margin:0 1.32rem;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: last baseline;
+}
+
+.social-link:nth-child(2){
+    margin:0 0.7rem;
+}
+
+.social-link:nth-child(4){
+    margin-left: 0.7rem;
+}
+
+.social-links{
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+.social-link{
+    cursor: pointer;
+    width: 1.7em;
+    border:3px solid transparent;
+    border-radius: 30px;
+}
+
+.social-link:hover{
+    border:3px solid white;
+    transition: 0.2s all;
+}
+
+.footer-section > p {
+    font-size: 0.7rem;
+    font-family: poppins;
+    color:rgba(238, 238, 238, 0.75);
+}
+
+
+@media (min-width: 240px) {
+    html{
+        font-size: 6.66vw;
+    }
+}
+
+@media (min-width: 400px) {
+
+    html{
+        font-size: 5vw;
+    }
+
+    .footer-section{
+        font-size: 7vw;
+    }
+}
+
+@media (min-width: 500px) {
+
+    html{
+        font-size: 4.5vw;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .footer-section{
+        font-size: 5vw;
+    }
+
+    html{
+        font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 700px) {
+
+    html{
+        font-size: 3vw;
+    }
+
+    .footer-section{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 750px) {
+
+    html{
+        font-size: 3vw;
+    }
+
+    .footer-section{
+        font-size: 3vw;
+        margin-top: 7vw;
+    }
+
+    .footer-section>p{
+        font-size: 0.5em;
+        align-self: flex-end;
+    }
+}
+
+@media (min-width: 1150px) {
+}
+
+@media (min-width: 1240px) {
+}
